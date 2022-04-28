@@ -1,0 +1,49 @@
+.AboutInfo {
+  /* height: 80vh; */
+  font-family: "Zilla Slab", serif;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 5rem;
+  margin-right: 15rem;
+}
+
+.picturediv {
+  height: 30vh;
+  width: 15vw;
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.AboutPage {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+
+.imgdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactbutton {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  border: 1px solid tomato; 
+  border-radius: 50px;
+  height: 3rem;
+  width: 5rem;
+  align-self: center;
+  background-color: tomato;
+  color: white;
+  font-family: "Zilla Slab", serif;
+  font-weight: bold;
+}
+
+.contactbutton:hover {
+  cursor: pointer;
+  border: 1px solid tomato;
+  color: tomato;
+background-color: white;
+}

@@ -1,0 +1,60 @@
+.navbar {
+  width: 20vw;
+  height: 90vh;
+  /* border: 1px solid tomato; */
+  padding-left: 2rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Zilla Slab", serif;
+  text-decoration: none;
+  position: sticky;
+  z-index: 1;
+  top: 1rem;
+  /* float: left; */
+}
+
+.logoname {
+  font-size: xx-large;
+  text-align: left;
+  display: flex;
+}
+
+.slogan {
+  text-align: left;
+  display: flex;
+  color: gray;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.1);
+
+}
+
+.pageLinks {
+  text-align: left;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  margin-top: 4rem;
+  font-size: 15px;
+  width: 60px;
+  text-decoration: none;
+}
+
+.pageLink {
+  padding-bottom: 6px;
+
+}
+
+.pageLinks:hover {
+  cursor: pointer;
+  
+
+}

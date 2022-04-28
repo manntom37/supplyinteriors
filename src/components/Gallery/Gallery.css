@@ -1,0 +1,39 @@
+.gallery {
+  height: 80vh;
+  font-family: "Zilla Slab", serif;
+
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-right: 5rem;
+  /* max-width: 100%;
+  max-height: 100%; */
+  object-fit: cover;
+}
+
+.images {
+  display: flex;
+  height: 80vh;
+  width: 70vw;
+  margin-top: 3rem;
+}
+
+.prevnext {
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  
+}
+
+.prevnext:hover {
+  cursor: pointer;
+}
+
+.arrows {
+  padding: 3px;
+}
